@@ -1,0 +1,17 @@
+{
+    "name": "Peteonic Page editor",
+    "version": "1.0.0",
+    "description": "replaces keywords in a webpage and has ability to turn entire page into bionic reading",
+    "manifest_version": 3,
+    "action": {
+    "default_icon": "IMG_3896.JPG"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["scripting","storage"],
+    "options_ui":{
+        "page": "opt.html"
+    }
+}
